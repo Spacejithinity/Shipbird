@@ -64,7 +64,7 @@ var layer_list = [
 	{
 		'image': shadows,
 		'src': 'https://drive.google.com/uc?id=18ARGrHjYfzf7VJqoNlTjHGURUTVNSNDU',
-		'z_index': 1,
+		'z_index': 1.75,
 		'position': {x: 0, y: 0},
 		'blend': null,
 		'opacity': 1
