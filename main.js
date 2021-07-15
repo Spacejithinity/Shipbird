@@ -50,7 +50,7 @@ var layer_list = [
 		'src': 'https://drive.google.com/uc?id=1n2fNuxOAjSxFEQhYt2YPxolkElrGvp-W',
 		'z_index': -1.25,
 		'position': {x: 0, y: 0},
-		'blend': 'overlay',
+		'blend': null,
 		'opacity': 1
 	},
 	{
@@ -58,16 +58,16 @@ var layer_list = [
 		'src': 'https://drive.google.com/uc?id=1cBILUzzpsUJu1mlq3CfwyttWqEZIwuxW',
 		'z_index': -0.5,
 		'position': {x: 0, y: 0},
-		'blend': 'overlay',
-		'opacity': 1
+		'blend': null,
+                'opacity': 1
 	},
 	{
 		'image': shadows,
 		'src': 'https://drive.google.com/uc?id=18ARGrHjYfzf7VJqoNlTjHGURUTVNSNDU',
 		'z_index': 1,
 		'position': {x: 0, y: 0},
-		'blend': 'multiply',
-		'opacity': 0.75
+		'blend': null,
+		'opacity': 1
 	},
 	{
 		'image': mask,
