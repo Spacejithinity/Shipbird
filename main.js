@@ -19,7 +19,6 @@ var floaties_1 = new Image();
 var floaties_2 = new Image();
 var mask = new Image();
 var humans = new Image();
-var floaties_3 = new Image();
 
 // Create a list of layer objects
 // Each object contains the following:
@@ -32,7 +31,7 @@ var floaties_3 = new Image();
 var layer_list = [
 	{
 		'image': background,
-		'src': './images/layer_1_1.png',
+		'src': 'https://drive.google.com/uc?id=1K3jv6T9IfhqIl0s4HLfnGVF_2zewdqql',
 		'z_index': -2.25,
 		'position': {x: 0, y: 0},
 		'blend': null,
@@ -40,7 +39,7 @@ var layer_list = [
 	},
 	{
 		'image': clouds,
-		'src': './images/layer_2_1.png',
+		'src': 'https://drive.google.com/uc?id=19gExecVR3aEIJXAzsbSdyGLS3hhB1qEy',
 		'z_index': -2,
 		'position': {x: 0, y: 0},
 		'blend': null,
@@ -48,7 +47,7 @@ var layer_list = [
 	},
 	{
 		'image': floaties_1,
-		'src': './images/layer_3_1.png',
+		'src': 'https://drive.google.com/uc?id=1n2fNuxOAjSxFEQhYt2YPxolkElrGvp-W',
 		'z_index': -1.25,
 		'position': {x: 0, y: 0},
 		'blend': 'overlay',
@@ -56,7 +55,7 @@ var layer_list = [
 	},
 	{
 		'image': floaties_2,
-		'src': './images/layer_4_1.png',
+		'src': 'https://drive.google.com/uc?id=1cBILUzzpsUJu1mlq3CfwyttWqEZIwuxW',
 		'z_index': -0.5,
 		'position': {x: 0, y: 0},
 		'blend': 'overlay',
@@ -64,15 +63,15 @@ var layer_list = [
 	},
 	{
 		'image': shadows,
-		'src': './images/layer_5_1.png',
-		'z_index': -1.25,
+		'src': 'https://drive.google.com/uc?id=18ARGrHjYfzf7VJqoNlTjHGURUTVNSNDU',
+		'z_index': 1,
 		'position': {x: 0, y: 0},
 		'blend': 'multiply',
 		'opacity': 0.75
 	},
 	{
 		'image': mask,
-		'src': './images/layer_6_1.png',
+		'src': 'https://drive.google.com/uc?id=1L8VxQdbID33aW2RT8LybwFDPkfUT5ZzX',
 		'z_index': 0,
 		'position': {x: 0, y: 0},
 		'blend': null,
@@ -80,19 +79,11 @@ var layer_list = [
 	},
 	{
 		'image': humans,
-		'src': './images/layer_7_1.png',
-		'z_index': 0.8,
-		'position': {x: 0, y: 0},
-		'blend': null,
-		'opacity': 1
-	},
-	{
-		'image': floaties_3,
-		'src': './images/layer_8_1.png',
+		'src': 'https://drive.google.com/uc?id=1filIftYIQ0UeSEn115uBYzKEm03SP04x',
 		'z_index': 2,
 		'position': {x: 0, y: 0},
 		'blend': null,
-		'opacity': 0.9
+		'opacity': 1
 	}
 ];
 
